@@ -1,0 +1,7 @@
+#!/bin/sh
+
+pnpm run type-check
+pnpm run lint
+pnpm run format:check
+
+echo "✅ All pre-push checks passed!"
