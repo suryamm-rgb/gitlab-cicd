@@ -1,0 +1,11 @@
+# Default owners for everything in the repo, unless a later match takes precedence.
+
+# Replace @admin-username with your actual GitHub username or team (e.g. @org/team-name).
+
+-       @admin-username
+
+# Example: require extra scrutiny on CI/CD and security-sensitive paths
+
+/.github/ @admin-username
+/next.config.ts @admin-username
+/commitlint.config.js @admin-username
